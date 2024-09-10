@@ -1,0 +1,222 @@
+.container-fluid {
+  background-color: #002147;
+}
+body {
+  font-family: "Lato", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#hero-section {
+  background: url("./images/ironing-wl12.jpg") no-repeat center center/cover;
+}
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+}
+.our-story img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.values .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.team .team-member {
+  text-align: center;
+}
+.team .team-member img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.testimonials .testimonial {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #002147;
+  padding: 30px 0;
+  /* display: flex; */
+}
+.footer .footer-links,
+.footer .social-icons,
+.footer .contact-info {
+  margin-bottom: 20px;
+}
+.footer {
+  padding: 20px;
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.offcanvas-header {
+  background-color: #f7f8f8;
+  color: rgb(25, 1, 92);
+}
+.offcanvas-body {
+  background-color: rgb(246, 246, 250);
+  color: white;
+}
+.offcanvasNavbarLabel {
+  background-color: #fff;
+  border: #0056b3;
+}
+
+.footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+  justify-content: left;
+}
+
+.footer .footer-link li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.contact {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.offcanvas-header {
+  background-color: #f7f8f8;
+  color: rgb(25, 1, 92);
+}
+.offcanvas-body {
+  background-color: #faf9f6;
+  color: white;
+}
+.offcanvasNavbarLabel {
+  background-color: #fff;
+  border: #0056b3;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(1, 1, 126);
+}
+.navbar .auth-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: #fff;
+  margin-top: 40px;
+}
+.navbar .auth-buttons a {
+  text-decoration: none;
+  color: white;
+}
+.nav-item:hover {
+  background-color: rgb(180, 180, 250);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccdff7;
+  height: 40px;
+  border-radius: 5px;
+}
+.form-group-input {
+  background-color: #0b70eb;
+}
+.copy {
+  text-align: left;
+  color: #0056b3;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+  padding: 20px 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.how-it-works-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.step {
+  max-width: 300px;
+}
+
+.step-number1 {
+  display: inline-block;
+  background-color: #007bff;
+  /* color: white; */
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  border-radius: 50%;
+  /* font-size: 24px; */
+  margin-bottom: 15px;
+}
+.step-number {
+  display: inline-block;
+  background-color: #050505;
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 24px;
+  margin: 10px;
+  border: 3px white solid;
+  justify-content: center;
+}
+.step-number:hover {
+  background-color: #007bff;
+}
+.step-number1:hover {
+  background-color: #070707;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color: #555;
+}

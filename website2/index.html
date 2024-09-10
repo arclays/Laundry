@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <meta name="author" content="Laundry" />
+    <link
+      rel="icon"
+      href="./images/logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <title>laundry</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="home .css" />
+    <script src="bootsrap.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="navbar bg-body-dark fixed-top">
+        <div class="container-fluid px-3">
+          <img
+            src="./images/logo.png" 
+            class="rounded-pill float-start mt-4"
+            alt="..."
+            width="180px"
+            height="120px"  style="border: 2px rgb(0, 0, 255) solid;"
+          />
+          <p class="navbar-brand fs-1 fw-bold text-white">LAGOON LAUNDRY</p>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-white mx-2"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-primary fs-3"
+                id="offcanvasNavbarLabel"
+                style="font-family: 'Times New Roman', Times, serif"
+                style="font-weight: bold" 
+              >
+                LAGOON
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav  text-primary flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link active" aria-current="page" href="services.html"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="About us.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contact us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="book.html"
+                    >Book Now</a
+                  >
+                </li>
+              
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+              <div class="auth-buttons gy-5 gx-5 g-4 mt-5" mt-5>
+                <button class="btn btn-info text-white"><a href="#">Register</a></button>
+                <button class="btn btn-primary text-white"><a href="#">Sign up</a></button>
+              </div>
+             
+         <img
+            src="./images/logo-removebg-preview.png"
+            class="rounded float-start"
+            alt="..." style="justify-content: end;"
+            width="200px"
+            height="150px"
+          />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="content">
+        <header class="hero-section">
+          <div class="overlay"></div>
+          <div class="hero-content fs-1 fw-bold text-white">
+            <h1>Professional Laundry <span class="laundry text-primary">Services at Your Doorstep</span></h1>
+            <p>
+              Affordable, fast, and eco-friendly <span class="text-primary">laundry solutions</span> for your home and
+              business.
+            </p>
+            <a href="book.html" class="cta-button" style="border-radius: 100%;">Book Now</a>
+          </div>
+        </header>
+  </body>
+</html>

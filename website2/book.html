@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+    <link rel="stylesheet" href="book.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a
+      href="services.html"
+      class="btn btn-outline-primary home-btn"
+      style="border-radius: 50%"
+      >service overview</a
+    >
+    <section class="hero-section">
+      <div class="container">
+        <h1>Book Your Service Now</h1>
+        <p class="fs-3 fw-bold text-dark">Easy and Convenient Booking</p>
+        <button id="getStartedBtn" class="btn btn-primary">Get Started</button>
+      </div>
+    </section>
+    <section id="booking-form" class="booking-form-section">
+      <div class="container">
+        <h2>Book Your Service</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email Address*"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="phoneNumber"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <select id="serviceType" class="form-control" required>
+                <option selected>Select Service Type</option>
+                <option>Wash & Fold</option>
+                <option>Dry Cleaning</option>
+                <option>Ironing</option>
+                <option>Pickup & Delivery</option>
+                <option>Laundry Subscription</option>
+                <option>Delicate Garment Cleaning</option>
+                <option>Commercial Laundry</option>
+                <option>Wedding Dress Cleaning</option>
+                <option>Uniform Cleaning</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <input
+                type="datetime-local"
+                class="form-control"
+                id="pickupTime"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="instructions"
+              rows="4"
+              placeholder="Additional Instructions"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Confirm Booking
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="why-us-section">
+      <div class="container">
+        <h2 class="fw-bold text-white">Why Choose Us</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-check-circle"></i></div>
+            <h4>Quality Service</h4>
+            <p class="fs-3 fw-bold text-white">
+              We ensure top-notch quality in every service we provide.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-clock"></i></div>
+            <h4>On-Time Delivery</h4>
+            <p class="fs-3 fw-bold text-white">
+              Your laundry will be delivered on time, every time.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-leaf"></i></div>
+            <h4>Eco-Friendly</h4>
+            <p class="fs-3 fw-bold text-white">
+              We use environmentally friendly products in our processes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      document
+        .getElementById("getStartedBtn")
+        .addEventListener("click", function () {
+          document.getElementById("booking-form").style.display = "block";
+          document
+            .getElementById("getStartedBtn")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+  </body>
+</html>
